@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                echo "The build is complete"
+                echo "The build is completed !!"
             }
         }
     }
