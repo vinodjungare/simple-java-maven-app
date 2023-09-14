@@ -23,7 +23,7 @@ pipeline {
         }
         stage('multibranch') {
             steps {
-                echo "The build is Multibranch !!"
+                echo "The build is Multibranch testetest!!"
             }
     }
 }
