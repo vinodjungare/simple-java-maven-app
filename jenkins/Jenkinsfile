@@ -25,5 +25,6 @@ pipeline {
             steps {
                 echo "The build is Multibranch !!"
             }
+        }
     }
 }
