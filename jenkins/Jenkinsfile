@@ -21,5 +21,9 @@ pipeline {
                 echo "The build is completed !!"
             }
         }
+        stage('multibranch') {
+            steps {
+                echo "The build is Multibranch !!"
+            }
     }
 }
